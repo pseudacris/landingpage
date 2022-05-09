@@ -1,0 +1,11 @@
+.test {
+    color: burlywood;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer {
+    margin: 100px;
+    color: aqua;
+    padding: 16px 32px;
+}
