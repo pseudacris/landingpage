@@ -1,0 +1,10 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+li {
+    display: inline;
+}
+
+.hero {
+    font-size: 48px;
+}
