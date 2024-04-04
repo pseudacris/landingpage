@@ -47,8 +47,13 @@ header, footer {
 .hero h2 {
     font-size: 48px;
     font-weight: 800;
+    color: #f9faf8;
     margin: 0;
 
+}
+
+.hero p {
+    color: #e5e7eb;
 }
 
 .pedestrians {
