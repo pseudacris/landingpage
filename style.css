@@ -88,6 +88,20 @@ figcaption {
     border: 0;
 }
 
+.call-to-action {
+    display: block;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+}
+
+.bluebox {
+    width: 60%;
+    height: 100px;
+    background-color: #2482f2;
+    
+}
+
 footer p {
     text-align: center;
     padding-top: 25px;
