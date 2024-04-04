@@ -45,15 +45,23 @@ header, footer {
 
 }
 
-.info img {
+.pedestrians {
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    height: auto;
+}
+
+.info {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 200px;
-    height: 200px;
+  
 }
 
-
+.image {
+    width: 200px;
+}
 
 .quote {
     width: 100%;
