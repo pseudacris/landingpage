@@ -15,7 +15,7 @@ li {
 }
 
 header {
-    height: 400px;
+    height: 100px;
 }
 
 header h6 {
@@ -23,23 +23,25 @@ header h6 {
 }
 
 header, footer {
-    background-color: #282A36;
+    background-color: #1f2937;
     color: white;
     width: 100%;
+    margin: 0;
     
    
 }  
 
 
 
-.hero {
+.hero.header {
     height: 350px;
-    background-color: ff80ed;
-   
+    background-color: #1f2937;
+    margin: 0;
 }
 
 .hero h2 {
     font-size: 48px;
+    margin: 0;
 
 }
 
