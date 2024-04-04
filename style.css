@@ -10,8 +10,6 @@ body {
     font-family: Roboto;
 }
 
-
-
 li {
     display: inline;
 }
@@ -22,8 +20,6 @@ li {
 
 header h6 {
     margin: 0;
-    
-   
 }
 
 header, footer {
@@ -36,4 +32,16 @@ header, footer {
 
 header {
     height: 400px;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 25px;
+}
+
+footer {
+    height: 60px;
+    
+   
+    font-size: small;
 }
