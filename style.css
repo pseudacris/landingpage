@@ -77,12 +77,12 @@ header, footer {
     
 }
 
-.info {
+/* .info {
     /* display: flex;
     flex-direction: column;
-    justify-content: center; */
+    justify-content: center;
   
-}
+} */
 
 h3 {
     font-size: 36px;
