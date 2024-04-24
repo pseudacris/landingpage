@@ -54,10 +54,20 @@ header, footer {
 
 .hero.header {
     height: 350px;
+    width: 100%;
     background-color: #1f2937;
     margin: 0;
     display: flex;
+    flex-direction: row;
     justify-content: end;
+    gap: 20rem;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    align-items: justify;
+    
 }
 
 .hero h2 {
@@ -75,16 +85,20 @@ header, footer {
 .hero button {
     background-color: #3882f6;
     color: #fff;
-    width: 100px;
-    height: 30px;
+    width: 125px;
+    height: 40px;
     /* padding: 14px 20px; */
     text-align: center;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
 }
 
 .pedestrians {
-    /* display: flex;
-    justify-content: flex-end; */
-    width: 200px;
+    display: flex;
+    justify-self: end;
+    padding: 5rem;
+    width: 640px;
     
 }
 
@@ -107,6 +121,7 @@ h3 {
 figure {
     width: 200px;
     display: inline-block;
+    justify-content: center;
 }
 
 .image {
