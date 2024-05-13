@@ -155,20 +155,38 @@ figcaption {
 
 .bluebox {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
     width: 60%;
     height: 150px;
     margin-left: 260px;
     background-color: #2482f2;
     border-radius: 20px;
+    gap: 2em;
     
 }
 
 .babyblue {
     display: block;
-    justify-content: center;
+    /* justify-content: center; */
+
+}
+
+.babyblue h5, .babyblue p {
+    margin: 0;
+    color: #fff;
+}
+
+.bluebox button {
+    width: 125px;
+    height: 40px;
+    background-color: #3882f6;
+    color: #fff;
+    border: 3px solid white;
+    border-radius: 10px;
 }
 
 footer p {
