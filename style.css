@@ -102,12 +102,13 @@ header, footer {
     
 }
 
-/* .info {
-    /* display: flex;
+.info {
+    display: flex;
     flex-direction: column;
+    margin: auto;
     justify-content: center;
-  
-} */
+    align-items: center;
+}
 
 h3 {
     font-size: 36px;
@@ -124,14 +125,6 @@ figure {
     justify-content: center;
 }
 
-.info {
-   display: flex;
-   flex-direction: column;
-   margin: auto;
-   justify-content: center;
-   align-items: center;
-}
-
 .photos {
     display: flex;
     justify-content: center;
@@ -145,9 +138,7 @@ figure {
 }
 
 figcaption {
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     width: 150px;
 }
 
