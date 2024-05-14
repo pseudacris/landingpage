@@ -142,12 +142,17 @@ figcaption {
     width: 150px;
 }
 
-.quote {
+.quote-container {
     width: 100%;
     height: 250px;
     background-color: #e5e7eb;
     margin: 0;
     border: 0;
+}
+
+.quote-box {
+    width: 60%;
+    height: 40%
 }
 
 .call-to-action {
