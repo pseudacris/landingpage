@@ -124,6 +124,14 @@ figure {
     justify-content: center;
 }
 
+.info {
+   display: flex;
+   flex-direction: column;
+   margin: auto;
+   justify-content: center;
+   align-items: center;
+}
+
 .photos {
     display: flex;
     justify-content: center;
@@ -137,7 +145,7 @@ figure {
 }
 
 figcaption {
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     width: 150px;
