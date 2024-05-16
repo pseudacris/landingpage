@@ -50,8 +50,6 @@ header, footer {
    
 }  
 
-
-
 .hero.header {
     height: 350px;
     width: 100%;
@@ -134,7 +132,6 @@ figure {
     width: 200px;
     border: 4px solid #2482f2;
     border-radius: 25px; 
-    outline: 3px solid red;
 }
 
 figcaption {
