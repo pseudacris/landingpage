@@ -55,7 +55,7 @@ header, footer {
     margin: 0;
     display: flex;
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
     gap: 20rem;
 }
 
@@ -63,6 +63,7 @@ header, footer {
     display: flex;
     flex-flow: column;
     align-items: justify;
+    padding-left: 200px
     
 }
 
@@ -93,9 +94,9 @@ header, footer {
 .pedestrians {
     display: flex;
     justify-self: end;
-    padding: 5rem;
+    padding-right: 200px;
     width: 640px;
-    
+    height: 320px;
 }
 
 .info {
