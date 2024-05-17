@@ -22,8 +22,13 @@ header {
     padding-right: 200px;
 }
 
+logo {
+    font-weight: 600;
+}
+
 .links {
     display: flex;
+    
 }   
 
 li {
@@ -31,6 +36,11 @@ li {
     
     padding-left: 45px;
     margin-top: 0;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
 header h6 {
@@ -169,10 +179,10 @@ blockquote {
 
 strong {
     font-weight: extra-bold;
+    font-size: large;
     text-align: right;
     width: 36%;
     height: 69px;
-    margin: 0;
     padding: 0 60px 0 0;
     /* padding-bottom: 10em; */
 }
@@ -210,10 +220,14 @@ strong {
 
 }
 
-.babyblue h5, .babyblue p {
+.babyblue h4, .babyblue p {
     margin: 0;
     color: #fff;
     margin-left: 80px;
+}
+
+.babyblue p {
+    font-size: smaller;
 }
 
 .bluebox button {
