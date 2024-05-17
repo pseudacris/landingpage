@@ -4,10 +4,6 @@ html, body {
     padding: 0;
 }
 
-/*body {
-    margin: 0;
-}*/
-
 * {
     font-family: Roboto;
     box-sizing: border-box;
@@ -22,8 +18,9 @@ header {
     padding-right: 200px;
 }
 
-logo {
-    font-weight: 600;
+.logo {
+    font-weight: 800;
+    font-size: large;
 }
 
 .links {
@@ -73,7 +70,8 @@ header, footer {
     display: flex;
     flex-flow: column;
     align-items: justify;
-    padding-left: 200px
+    padding-left: 200px;
+    
     
 }
 
@@ -82,7 +80,6 @@ header, footer {
     font-weight: 800;
     color: #f9faf8;
     margin: 0;
-
 }
 
 .hero p {
@@ -94,7 +91,6 @@ header, footer {
     color: #fff;
     width: 125px;
     height: 40px;
-    /* padding: 14px 20px; */
     text-align: center;
     border-radius: 10px;
     font-size: medium;
@@ -107,8 +103,6 @@ header, footer {
     padding-right: 200px;
     width: 75%;
     height: 75%;
-    /* width: 640px;
-    height: 320px; */
 }
 
 .info {
@@ -117,7 +111,6 @@ header, footer {
     margin: auto;
     justify-content: center;
     align-items: center;
-    
 }
 
 h3 {
@@ -126,7 +119,6 @@ h3 {
     color: #1f2937;
     width: 500px;
     text-align: center;
-
 }
 
 figure {
@@ -175,6 +167,7 @@ blockquote {
     font-size: x-large;
     padding: 0;
     text-align: justify;
+    font-style: italic;
 }
 
 strong {
@@ -184,12 +177,9 @@ strong {
     width: 36%;
     height: 69px;
     padding: 0 60px 0 0;
-    /* padding-bottom: 10em; */
 }
 
 .call-to-action {
-    /* display: block;
-    justify-content: center; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -250,6 +240,5 @@ footer {
     height: 60px;
     margin: 0;
     border: 0;
-   
     font-size: small;
 }
